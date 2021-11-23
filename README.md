@@ -1,2 +1,1 @@
-# testing_portfolio
-Final project for ISM6145 Software Testing at USF
+This was an individual project for ISM6145 Software Testing at USF. The project entailed five sets of functional tests executed manually, one set of automated functional tests, and a structural code analysis. The system under test was Evernote. The primary tools were Chrome Dev browser, Brave browser, and Selenium.
