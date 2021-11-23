@@ -1,0 +1,419 @@
+{
+  "id": "5966205f-6b93-4dd5-a8ec-ccf508c86b9f",
+  "version": "2.0",
+  "name": "Portfolio",
+  "url": "https://www.evernote.com/client/web",
+  "tests": [{
+    "id": "25fd369f-6c1c-4d89-9b48-f0499a8ec34f",
+    "name": "Share1",
+    "commands": [{
+      "id": "5397f443-ee19-43af-bee0-673d5db8bb56",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.evernote.com/client/web#?hm=true&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d8e5ec25-187c-4281-a9a7-f3a72cb0c34e",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1372x996",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "859c7d90-3f6f-4396-b696-b3507b48a8fa",
+      "comment": "select shared note",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "562c49b1-d8f8-4c51-8b9d-42581804d920",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//div[@id='55b82d91-a198-45b0-aa49-2fb6833a003f_qa-NOTES_SIDEBAR_NOTE_SNIPPET']/span",
+      "targets": [
+        ["css=#\\35 5b82d91-a198-45b0-aa49-2fb6833a003f_qa-NOTES_SIDEBAR_NOTE_SNIPPET > span", "css:finder"],
+        ["xpath=//div[@id='55b82d91-a198-45b0-aa49-2fb6833a003f_qa-NOTES_SIDEBAR_NOTE_SNIPPET']/span", "xpath:idRelative"],
+        ["xpath=//article/div/div/div[2]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'shared note')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "dc50c9c9-e68f-4e32-898e-ebcf273003ab",
+      "comment": "open sharing dialogue box",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f9111d01-fd13-4b8c-b7b9-ad8a9ec9ce83",
+      "comment": "",
+      "command": "click",
+      "target": "id=qa-SHARE_BUTTON",
+      "targets": [
+        ["id=qa-SHARE_BUTTON", "id"],
+        ["css=#qa-SHARE_BUTTON", "css:finder"],
+        ["xpath=//button[@id='qa-SHARE_BUTTON']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-NOTE_HEADER']/div[2]/span/button", "xpath:idRelative"],
+        ["xpath=//div[2]/span/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Share')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "83a03b4d-12d2-493b-811f-81a05cb21358",
+      "comment": "verify email address of first-degree recipient",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "432b48f4-53c2-46c5-8f96-08b3336474d2",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3aUuUoluQp14wYurfUEhz8 > path:nth-child(1)",
+      "targets": [
+        ["css=.\\_3aUuUoluQp14wYurfUEhz8 > path:nth-child(1)", "css:finder"]
+      ],
+      "value": ""
+    }, {
+      "id": "0e97aa8d-4a00-4b9a-8827-360f931fcbb6",
+      "comment": "",
+      "command": "verifyText",
+      "target": "css=#qa-USER_LIST_ROW_1 #qa-USER_LIST_EMAIL > span",
+      "targets": [
+        ["css=#qa-USER_LIST_ROW_1 #qa-USER_LIST_EMAIL > span", "css:finder"],
+        ["xpath=(//div[@id='qa-USER_LIST_EMAIL']/span)[2]", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[2]/div/div[3]/span", "xpath:position"],
+        ["xpath=//span[contains(.,'jameslong595@gmail.com')]", "xpath:innerText"]
+      ],
+      "value": "jameslong595@gmail.com"
+    }, {
+      "id": "5acb086a-5493-4377-9ae4-b79919a2513c",
+      "comment": "verify email address of second-degree recipient",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4cdc5623-721c-4ced-92fd-d7c915ea10dd",
+      "comment": "",
+      "command": "click",
+      "target": "css=#qa-USER_LIST_ROW_2 > .\\_27ttD8E4oszcRvy-4nrG-v",
+      "targets": [
+        ["css=#qa-USER_LIST_ROW_2 > .\\_27ttD8E4oszcRvy-4nrG-v", "css:finder"],
+        ["xpath=//div[@id='qa-USER_LIST_ROW_2']/div", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/div/div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "f3355ad3-0318-4770-9ae5-184c712fc589",
+      "comment": "",
+      "command": "assertText",
+      "target": "css=#qa-USER_LIST_ROW_2 #qa-USER_LIST_EMAIL > span",
+      "targets": [],
+      "value": "squidiraffe@gmail.com"
+    }]
+  }, {
+    "id": "d2729f32-7c07-4f1d-8218-182e63b8eb47",
+    "name": "Attach1",
+    "commands": [{
+      "id": "dcadc0b8-5f17-4a75-934e-7f8aa4e2509e",
+      "comment": "",
+      "command": "open",
+      "target": "https://www.evernote.com/client/web#?hm=true&",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "8c6e0c98-2f42-4c10-8934-b60ef57b9e64",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1372x996",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "26013966-4d39-4d27-aa65-9eb935371647",
+      "comment": "from Home, enter search term known to be present in clearly handwritten note",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "af90c2d2-bf8e-4c44-b536-89da67e4a1a3",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=qa-SEARCH_INPUT_INITIAL",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_INITIAL", "id"],
+        ["css=#qa-SEARCH_INPUT_INITIAL", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_INITIAL']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_INITIAL']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3624ac88-e1b8-4f49-b08e-cfd857473321",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=qa-SEARCH_INPUT_DROPDOWN",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_DROPDOWN", "id"],
+        ["css=#qa-SEARCH_INPUT_DROPDOWN", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_DROPDOWN']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_DROPDOWN']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f0ff52c-2a18-4523-9eb9-2d71300422bb",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//li[2]",
+      "targets": [
+        ["css=.\\_1KbyeURjG88VfJ-AXgx85q", "css:finder"],
+        ["xpath=//nav[@id='qa-NAV']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "bafa182d-1439-4546-ad80-5c1a5585a459",
+      "comment": "",
+      "command": "type",
+      "target": "id=qa-SEARCH_INPUT_DROPDOWN",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_DROPDOWN", "id"],
+        ["css=#qa-SEARCH_INPUT_DROPDOWN", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_DROPDOWN']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_DROPDOWN']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "clear"
+    }, {
+      "id": "93be3871-9448-4668-893d-a84a4a90cbf8",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=qa-SEARCH_INPUT_DROPDOWN",
+      "targets": [],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b7e089f2-2e44-4dde-913c-a8e50ccb23bd",
+      "comment": "store search result",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "ed19b8db-4ffe-4938-aa0a-a0526cd900e8",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3gWV-26zyOkpDzGjkadsmx",
+      "targets": [
+        ["css=.\\_3gWV-26zyOkpDzGjkadsmx", "css:finder"],
+        ["xpath=//div[@id='qa-NOTES_SIDEBAR']/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/section/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "905d671e-d0be-4e28-b079-c988b320d8d5",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.\\_2N9bHjyr68U2tZjI8Derr6",
+      "targets": [],
+      "value": "search-result"
+    }, {
+      "id": "9e7606df-44e8-4198-b70d-6fbd5be040f4",
+      "comment": "verify results",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "021b55ff-8ceb-482c-bfb1-474983e15666",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (${search-result}.startsWith('No notes found')) { return false; } else { return true };",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "e9238cb8-b248-4450-9830-cb96b2692bf1",
+      "comment": "",
+      "command": "verify",
+      "target": "x",
+      "targets": [],
+      "value": "true"
+    }, {
+      "id": "76f3dbb1-cb72-4091-8f1e-6b2748883c62",
+      "comment": "reposition to notebook",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "00e5c587-e691-4f00-a019-f547253b3648",
+      "comment": "",
+      "command": "click",
+      "target": "css=.Es3PxagBYTvbnhTAmq7DI",
+      "targets": [
+        ["css=.Es3PxagBYTvbnhTAmq7DI", "css:finder"],
+        ["xpath=//div[@id='qa-NAV_ALL_NOTEBOOKS']/div/span", "xpath:idRelative"],
+        ["xpath=//div[4]/div/div/span", "xpath:position"],
+        ["xpath=//span[contains(.,'Notebooks')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "edc947ab-a078-4469-b633-d43235712e63",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "e2d9f75f-3441-45ab-b916-1b43547c8960",
+      "comment": "",
+      "command": "click",
+      "target": "id=qa-NOTEBOOK_TITLE",
+      "targets": [
+        ["id=qa-NOTEBOOK_TITLE", "id"],
+        ["css=#qa-NOTEBOOK_TITLE", "css:finder"],
+        ["xpath=//span[@id='qa-NOTEBOOK_TITLE']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-TABLE_NOTEBOOK_ROW_0_20b8fc6a-b9c2-46f2-be9b-30dce0aa4aca']/div/div/button[2]/span[2]", "xpath:idRelative"],
+        ["xpath=//button[2]/span[2]", "xpath:position"],
+        ["xpath=//span[contains(.,'First Notebook')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6690bdd4-7ab0-4f2f-898b-fa945083a739",
+      "comment": "",
+      "command": "runScript",
+      "target": "window.scrollTo(0,0)",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "cca964b4-3dc0-431e-9895-0eedb24dbd33",
+      "comment": "from Notebook, enter search term known to be present in clearly handwritten note",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fef6f21-16c3-41c0-98fe-2a1fb1b6bec6",
+      "comment": "",
+      "command": "mouseDown",
+      "target": "id=qa-SEARCH_INPUT_INITIAL",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_INITIAL", "id"],
+        ["css=#qa-SEARCH_INPUT_INITIAL", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_INITIAL']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_INITIAL']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "9da5869b-2fa9-492c-b21a-3585d60a751b",
+      "comment": "",
+      "command": "mouseUp",
+      "target": "id=qa-SEARCH_INPUT_DROPDOWN",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_DROPDOWN", "id"],
+        ["css=#qa-SEARCH_INPUT_DROPDOWN", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_DROPDOWN']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_DROPDOWN']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "73d07d6d-b184-49c0-9c43-e593ea2a3255",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_1KbyeURjG88VfJ-AXgx85q",
+      "targets": [
+        ["css=.\\_1KbyeURjG88VfJ-AXgx85q", "css:finder"],
+        ["xpath=//nav[@id='qa-NAV']/div/ul/li[2]", "xpath:idRelative"],
+        ["xpath=//li[2]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "10fccc68-a51c-45b4-bed6-c92c2a837b30",
+      "comment": "",
+      "command": "type",
+      "target": "id=qa-SEARCH_INPUT_DROPDOWN",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_DROPDOWN", "id"],
+        ["css=#qa-SEARCH_INPUT_DROPDOWN", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_DROPDOWN']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_DROPDOWN']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "clear"
+    }, {
+      "id": "fae2bc3c-8b69-4ce2-9375-ce9db47d2d00",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "id=qa-SEARCH_INPUT_DROPDOWN",
+      "targets": [
+        ["id=qa-SEARCH_INPUT_DROPDOWN", "id"],
+        ["css=#qa-SEARCH_INPUT_DROPDOWN", "css:finder"],
+        ["xpath=//input[@id='qa-SEARCH_INPUT_DROPDOWN']", "xpath:attributes"],
+        ["xpath=//div[@id='qa-SEARCH_BAR_DROPDOWN']/div/div/form/input", "xpath:idRelative"],
+        ["xpath=//div[2]/div/div/form/input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "c89e5a50-307a-4345-b024-56280039f4ea",
+      "comment": "store search result",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f017308b-1962-436c-9639-43755f01df24",
+      "comment": "",
+      "command": "click",
+      "target": "css=.\\_3gWV-26zyOkpDzGjkadsmx",
+      "targets": [
+        ["css=.\\_3gWV-26zyOkpDzGjkadsmx", "css:finder"],
+        ["xpath=//div[@id='qa-NOTES_SIDEBAR']/div", "xpath:idRelative"],
+        ["xpath=//section/div/div/div/section/div/div/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "6d8d81f6-e6c0-4758-b856-e522f0919205",
+      "comment": "",
+      "command": "storeText",
+      "target": "css=.\\_2N9bHjyr68U2tZjI8Derr6",
+      "targets": [],
+      "value": "search-result"
+    }, {
+      "id": "5b67f51c-8525-413a-93e5-58ba210ad8ce",
+      "comment": "verify results",
+      "command": "",
+      "target": "",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "6564467f-d8e4-4429-8a52-cb3de10c60db",
+      "comment": "",
+      "command": "executeScript",
+      "target": "if (${search-result}.startsWith('No notes found')) { return false; } else { return true };",
+      "targets": [],
+      "value": "x"
+    }, {
+      "id": "9882286e-c434-4318-b5e1-031d3454561a",
+      "comment": "",
+      "command": "assert",
+      "target": "x",
+      "targets": [],
+      "value": "true"
+    }]
+  }],
+  "suites": [{
+    "id": "d3ea3a4a-bfd8-4215-8e69-4d47a0dcb764",
+    "name": "Evernote",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["25fd369f-6c1c-4d89-9b48-f0499a8ec34f", "d2729f32-7c07-4f1d-8218-182e63b8eb47"]
+  }],
+  "urls": ["https://www.evernote.com/", "https://www.evernote.com/client/web"],
+  "plugins": []
+}
